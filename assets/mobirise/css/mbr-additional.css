@@ -1,5 +1,64 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+@charset "utf-8";
+
+@font-face {
+     font-family: gotham-bold;
+     src: url('../../fonts/gotham-bold.otf') format('opentype'),
+     url('../../fonts/gotham-bold.ttf') format('truetype'),
+     url('../../fonts/gotham-bold.woff') format('woff'),
+     url('../../fonts/gotham-bold.svg#font') format('svg'); /* iOS */
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+     font-family: gotham-bold-italic;
+     src: url('../../fonts/gotham-bold-italic.otf') format('opentype'),
+     url('../../fonts/gotham-bold-italic.ttf') format('truetype'),
+     url('../../fonts/gotham-bold-italic.woff') format('woff')
+     url('../../fonts/gotham-bold-italic.svg#font') format('svg'); /* iOS */
+     font-weight: normal;
+     font-style: italic;
+}
+@font-face {
+     font-family: gotham-medium-italic;
+     src: url('../../fonts/gotham-medium-italic.otf') format('opentype'),
+          url('../../fonts/gotham-medium-italic.ttf') format('truetype'),
+          url('../../fonts/gotham-medium-italic.woff') format('woff'),
+          url('../../fonts/gotham-medium-italic.svg#font') format('svg'); /* iOS */
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+     font-family: gotham-medium-regular;
+     src: url('../../fonts/gotham-medium-regular.otf') format('opentype'),
+     url('../../fonts/gotham-medium-regular.ttf') format('truetype'),
+     url('../../fonts/gotham-medium-regular.woff') format('woff'),
+     url('../../fonts/gotham-medium-regular.svg#font') format('svg'); /* iOS */
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+     font-family: gotham-book-italic;
+     src: url('../../fonts/gotham-book-italic.otf') format('opentype'),
+     url('../../fonts/gotham-book-italic.ttf') format('truetype'),
+     url('../../fonts/gotham-book-italic.woff') format('woff'),
+     url('../../fonts/gotham-book-italic.svg#font') format('svg'); /* iOS */
+     font-weight: normal;
+     font-style: italic;
+}
+@font-face {
+     font-family: gotham-book-regular;
+     font-style: normal;
+     src: url('../../fonts/gotham-book-regular.otf') format('opentype'),
+     url('../../fonts/gotham-book-regular.ttf') format('truetype'),
+     url('../../fonts/gotham-book-regular.woff') format('woff'),
+     url('../../fonts/gotham-book-regular.svg#font') format('svg'); /* iOS */
+     font-weight: normal;
+     font-style: normal;
+}
+
 body {
   font-style: normal;
   line-height: 1.5;
@@ -16,14 +75,14 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'gotham-medium-regular';/*, sans-serif;*/
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'gotham-medium-regular';
   font-size: 3rem;
   font-weight: 500;
 }
@@ -31,21 +90,21 @@ body {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'gotham-book-regular';
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'gotham-book-regular';
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'gotham-book-regular';
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -2399,6 +2458,11 @@ body {
   }
 }
 
+
+
+/*Changes*/
+
+
 .cid-img1{
   background-image: url("../../../assets/images/bg04.jpg");
 }
@@ -2450,4 +2514,23 @@ body {
 }
 .cid-qMdilX8ttZ .card-wrapper {
   height: 100%;
+}
+.cid-qLm1CFjouG .navbar {
+  padding: .5rem 0;
+  background: rgba(30,25,77,1);
+  transition: none;
+  min-height: 77px;
+}
+
+.cid-qLm1CFjouG .navbar-dropdown.bg-color.transparent.opened {
+  background: rgba(30,25,77,1);
+}
+.navbar.navbar-expand.beta-menu.navbar-dropdown.align-items-center.navbar-fixed-top.navbar-toggleable-sm.bg-color.transparent {
+  background: rgba(30,25,77,0.1);
+}
+
+.cid-qLoo97k3wO {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgba(30,25,77,1);
 }
