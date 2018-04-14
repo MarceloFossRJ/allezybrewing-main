@@ -58,6 +58,17 @@
      font-weight: normal;
      font-style: normal;
 }
+@font-face {
+     font-family: gothamcondensed-medium;
+     font-style: normal;
+     src: url('../../fonts/gothamcondensed-medium.otf') format('opentype'),
+     url('../../fonts/gothamcondensed-medium.ttf') format('truetype'),
+     url('../../fonts/gothamcondensed-medium.woff') format('woff'),
+     url('../../fonts/gothamcondensed-medium.svg#font') format('svg'); /* iOS */
+     font-weight: normal;
+     font-style: normal;
+}
+
 
 body {
   font-style: normal;
@@ -2487,7 +2498,6 @@ body {
 }
 
 
-
 /*Changes*/
 .cid-img1{
   background-image: url("../../../assets/images/bg10.jpg");
@@ -2573,4 +2583,17 @@ body {
   font-size: 1.1rem;
   max-height: 1.1rem;
   color: red;
+}
+
+.cid-qLxeFriP4m .inner-container {
+  text-align: justify;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+@media (max-width: 768px) {
+  .cid-qLxeFriP4m .inner-container {
+    text-align: justify;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 }
