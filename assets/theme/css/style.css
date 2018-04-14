@@ -81,6 +81,9 @@ section {
 .mbr-black {
   color: #000000; }
 
+.mbr-navy {
+    color: rgba(30,25,77,1); }
+
 .mbr-bg-white {
   background-color: #ffffff; }
 
