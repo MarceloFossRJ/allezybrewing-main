@@ -307,7 +307,7 @@
 </section>
 <section class="mbr-social-feed loading" id="feed-1g" data-facebook="seasonsbeer" data-twitter="" data-google="" data-posts="3" data-youtube="" data-rv-view="118" style="background-color: rgb(255, 255, 255); padding-top: 0px; padding-bottom: 0px;">
   &nbsp;<br>&nbsp;
-  
+
     <img class="social-feed-container-loading" alt="" src="assets/images/loading.svg">
     <div class="social-feed-container">
     </div>
@@ -468,7 +468,8 @@
             <div class="media-container-column" data-form-type="formoid">
                     <div data-form-alert="" hidden="">Obrigado!</div>
 
-                    <form class="mbr-form" action="https://mobirise.com/" method="post" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="OtXN8wuEQ40O5+/egLFWY13acTrh/3fyf9cRPwdHcjNNT3YT8ysBCzs6pY6y9K0OHusrmcjk5cngZvFEsGi3K8yFzPYp3P0c+J2DiByPHoojNAiOonvSheqLFTy+HeUg" data-form-field="Email">
+                    <form class="mbr-form" action="mail.php" method="post" id="contato-form">
+
                         <div class="row row-sm-offset">
                             <div class="col-md-12 multi-horizontal" data-for="name">
                                 <div class="form-group">
@@ -491,16 +492,17 @@
                             <div class="col-md-12 multi-horizontal" data-for="assunto">
                                 <div class="form-group">
                                     <label class="form-control-label mbr-fonts-style display-7" for="assunto-form1-x">Assunto</label>
-                                    <input type="text" class="form-control" name="assunto" data-form-field="Assunto" id="assunto-form1-x">
+                                    <input type="text" class="form-control" name="assunto" data-form-field="Assunto" required="" id="assunto-form1-x">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group" data-for="mensagem">
                             <label class="form-control-label mbr-fonts-style display-7" for="message-form1-x">Mensagem</label>
-                            <textarea type="text" class="form-control" name="mensagem" rows="7" data-form-field="Mensagem" id="message-form1-x"></textarea>
+                            <textarea type="text" class="form-control" name="mensagem" rows="7" data-form-field="Mensagem" required="" id="message-form1-x"></textarea>
                         </div>
 
-                        <span class="input-group-btn"><button href="" type="submit" class="btn btn-form btn-black-outline display-4">Enviar</button></span>
+                          <input type="submit" class="btn btn-form btn-black-outline display-4" value="Enviar">
+                          &nbsp;&nbsp;
                     </form>
             </div>
           </div>
@@ -576,6 +578,8 @@
   <script src="assets/gallery/player.min.js"></script>
   <script src="assets/gallery/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
+  <script src="assets/theme/js/main.js"></script>
+
 
 
 </body>
