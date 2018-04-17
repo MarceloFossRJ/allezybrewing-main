@@ -2085,12 +2085,8 @@ body {
 .cid-contato-header {
   padding-top: 240px;
   padding-bottom: 240px;
-/*  background-image: url("../../../assets/images/bg15.jpg");*/
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-              url("../../../assets/images/bg15.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../../../assets/images/bg15.jpg");
+  
 }
 .cid-qLohSTphNc {
   padding-top: 90px;
