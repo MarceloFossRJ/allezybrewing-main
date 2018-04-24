@@ -31,7 +31,7 @@
      font-style: normal;
 }
 @font-face {
-     font-family: gotham-medium-regular;
+     font-family: gothammedium;
      src: url('../../fonts/gotham-medium-regular.otf') format('opentype'),
      url('../../fonts/gotham-medium-regular.ttf') format('truetype'),
      url('../../fonts/gotham-medium-regular.woff') format('woff'),
@@ -49,7 +49,7 @@
      font-style: italic;
 }
 @font-face {
-     font-family: gotham-book-regular;
+     font-family: gotham-book;
      font-style: normal;
      src: url('../../fonts/gotham-book-regular.otf') format('opentype'),
      url('../../fonts/gotham-book-regular.ttf') format('truetype'),
@@ -86,14 +86,14 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'gotham-medium-regular';/*, sans-serif;*/
+  font-family: 'gothammedium';/*, sans-serif;*/
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'gotham-medium-regular';
+  font-family: 'gothammedium';
   font-size: 3rem;
   font-weight: 500;
 }
@@ -109,21 +109,21 @@ body {
 }
 
 .display-4 {
-  font-family: 'gotham-book-regular';
+  font-family: 'gotham-book';
   font-size: 1rem;
 }
 .display-4 > .mbr-iconfont {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'gotham-book-regular';
+  font-family: 'gotham-book';
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
   font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'gotham-book-regular';
+  font-family: 'gotham-book';
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -2221,9 +2221,10 @@ body {
 }
 
 .menu-font {
-  font-family: 'gotham-medium-regular';
+  font-family: 'gothammedium';
   font-size: 1rem;
 }
+
 .frontpage-font {
   font-family: 'gotham-bold';
   font-size: 3rem;

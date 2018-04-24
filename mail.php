@@ -7,13 +7,13 @@
    <body>
 
       <?php
-         $to = $_POST['email'];
+         $from = $_POST['email'];
          $nome = $_POST['nome'];
          $telefone = $_POST['telefone'];
          $assunto = $_POST['assunto'];
          $mensagem = $_POST['mensagem'];
 
-         $to = "marcelo.foss.rj@gmail.com";
+         $to = "contato@gmail.com";
          $subject = $assunto;
 
          $message = "<b>Nome:</b>";
@@ -21,13 +21,15 @@
          $message .= "<br><b>Telefone:</b>";
          $message .= $telefone;
          $message .= "<br><b>Email:</b>";
-         $message .= $to;
+         $message .= $from;
          $message .= "<br><b>Assunto:</b>";
          $message .= $assunto;
          $message .= "<br><b>Mensagem:</b>";
          $message .= $mensagem;
 
-         $header = "From:marcelo.foss@allezybrewing.com.br \r\n";
+         $header = "From:";
+         $header .= $from;
+         $header .= "\r\n";
          $header .= "Cc:contato@allezybrewing.com.br \r\n";
          $header .= "MIME-Version: 1.0\r\n";
          $header .= "Content-type: text/html\r\n";
