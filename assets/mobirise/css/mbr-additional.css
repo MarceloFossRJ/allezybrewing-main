@@ -97,6 +97,13 @@ body {
   font-size: 3rem;
   font-weight: 500;
 }
+
+.display-3 {
+  font-family: 'gothamcondensed-medium';
+  font-size: 3rem;
+  font-weight: 500;
+}
+
 .display-2 > .mbr-iconfont {
   font-size: 4.8rem;
 }
