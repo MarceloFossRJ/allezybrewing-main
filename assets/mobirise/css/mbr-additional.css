@@ -16,7 +16,7 @@
      font-family: gotham-bold-italic;
      src: url('../../fonts/gotham-bold-italic.otf') format('opentype'),
      url('../../fonts/gotham-bold-italic.ttf') format('truetype'),
-     url('../../fonts/gotham-bold-italic.woff') format('woff')
+     url('../../fonts/gotham-bold-italic.woff') format('woff'),
      url('../../fonts/gotham-bold-italic.svg#font') format('svg'); /* iOS */
      font-weight: normal;
      font-style: italic;
@@ -31,7 +31,7 @@
      font-style: normal;
 }
 @font-face {
-     font-family: gothammedium;
+     font-family: gotham-medium;
      src: url('../../fonts/gotham-medium-regular.otf') format('opentype'),
      url('../../fonts/gotham-medium-regular.ttf') format('truetype'),
      url('../../fonts/gotham-medium-regular.woff') format('woff'),
@@ -86,14 +86,14 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'gothammedium';/*, sans-serif;*/
+  font-family: 'gotham-medium';/*, sans-serif;*/
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'gothammedium';
+  font-family: 'gotham-medium';
   font-size: 3rem;
   font-weight: 500;
 }
@@ -2221,7 +2221,7 @@ body {
 }
 
 .menu-font {
-  font-family: 'gothammedium';
+  font-family: 'gotham-medium';
   font-size: 1rem;
 }
 
