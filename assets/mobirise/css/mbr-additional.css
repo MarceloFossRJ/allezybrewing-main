@@ -2292,3 +2292,25 @@ body {
     padding-right: 0rem;
   }
 }
+.cid-encontrar-texto .media-container-row .mbr-iconfont-social2 {
+  font-size:3.5rem;
+  vertical-align:top;
+  color:rgba(30,25,77,1);
+  text-align: center;
+}
+.cid-encontrar-texto .media-container-row .mbr-iconfont-social2:hover {
+  opacity: 0.5;
+}
+.unttapd:hover .image2 {
+  opacity: 0.7;
+}
+.image2 {
+  opacity: 1;
+  transition: .1s ease;
+  backface-visibility: hidden;
+}
+
+.cid-qLm1CFjouG .nav-link:hover,
+.cid-qLm1CFjouG .dropdown-item:hover {
+  color: red   !important;
+}
