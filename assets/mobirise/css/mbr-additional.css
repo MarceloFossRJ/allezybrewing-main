@@ -2462,12 +2462,14 @@ body {
 .cid-qLm1CFjouG .navbar-toggleable-sm .navbar-collapse .navbar-nav .nav-item {
   -webkit-align-self: center;
   align-self: center;
+
 }
 .cid-qLm1CFjouG .navbar-toggleable-sm .navbar-collapse {
   justify-content: flex-end;
   -webkit-justify-content: flex-end; /*center*/
   padding-right: 5rem;
   width: auto;
+
 }
 /* menu aberto*/
 .cid-qLm1CFjouG .navbar {
@@ -2481,15 +2483,18 @@ body {
 .cid-qLm1CFjouG .navbar-dropdown.bg-color.transparent.opened {
   background: rgba(30,25,77,1);
   background: rgba(234,234,234,1);
-
 }
 /* transparencia do menu*/
 .navbar.navbar-expand.beta-menu.navbar-dropdown.align-items-center.navbar-fixed-top.navbar-toggleable-sm.bg-color.transparent {
   background: rgba(30,25,77,0);
-    background: rgba(234,234,234,0);
+  background: rgba(234,234,234,0);
   background: rgba(0,0,0,0.2);
-
   /*background: #cccccc;*/
+}
+@media (max-width: 992px) {
+  .navbar.navbar-expand.beta-menu.navbar-dropdown.align-items-center.navbar-fixed-top.navbar-toggleable-sm.bg-color.transparent {
+    background: rgba(0,0,0,0.5);
+  }
 }
 /* cor da fonte do menu */
 .cid-qLm1CFjouG .nav-link,
@@ -2554,7 +2559,7 @@ body {
 .preto {
   color: black;
 }
-  
+
 
 .iconfont-social-menu {
   font-size: 1.1rem;
